@@ -1,8 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geoquiz="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".QuizActivity" >
+    <!-- Stolen from http://stackoverflow.com/questions/17914017/android-4-3-menu-item-showasaction-always-ignored -->
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
-        android:showAsAction="never" />
+        geoquiz:showAsAction="never" />
 </menu>
