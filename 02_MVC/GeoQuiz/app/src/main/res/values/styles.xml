@@ -1,8 +1,12 @@
 <resources>
 
     <!-- Base application theme. -->
+    <!-- Stolen from http://stackoverflow.com/questions/24880388/cannot-lower-case-button-text-in-android-studio -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/Button</item>
         <!-- Customize your theme here. -->
     </style>
-
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
 </resources>
